@@ -8,7 +8,7 @@ const express = require('express');
 const ayarlar = require('./ayarlar.json');
 const Discord = require('discord.js');
 const darknoah = new Discord.Client();
-darknoah.login('TOKEN')
+darknoah.login('ODczNTQzNjk4Mjc1NzY2Mjkz.YQ589w.mtevS4uaPhUnAu2pR4DzeUxWZ1A')
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 
 
@@ -22,7 +22,7 @@ require('./util/eventLoader.js')(darknoah);
 
 //===============================================================================\\
 darknoah.on('ready', async () => {
- darknoah.user.setActivity(`Shelp | UPDATE NOW !!  | Server + ${darknoah.guilds.cache.size}`, { type:'PLAYING' })
+ darknoah.user.setActivity(`R!help | UPDATE NOW !!  | Server + ${darknoah.guilds.cache.size}`, { type:'PLAYING' })
 });
 //===============================================================================\\
 darknoah.on("message", emprator => {
